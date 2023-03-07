@@ -27,23 +27,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"check_address\": () => (/* binding */ check_address)\n/* harmony export */ });\nconst check_address = address => {\n  const valid_chars = [\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"a\", \"b\", \"c\", \"d\", \"e\", \"f\"];\n  address = address.replace(\".\", \"\").replace(\".\", \"\").toLocaleLowerCase();\n  const check_value = [...address];\n  if (check_value.length != 6) {\n    return false;\n  }\n  for (let i = 0; i < check_value.length; i++) {\n    if (!valid_chars.includes(check_value[i])) {\n      return false;\n    }\n  }\n  return true;\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvdG9vbHMvY2hlY2tfYWRkcmVzcy50cy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUE7QUFDQTtBQWtCQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnN0ZW9uLXBhbmVsLWZyb250ZW5kLy4vc3JjL3Rvb2xzL2NoZWNrX2FkZHJlc3MudHM/ZTQ0MiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgY2hlY2tfYWRkcmVzcyA9IChhZGRyZXNzOiBzdHJpbmcpOiBib29sZWFuID0+IHtcbiAgY29uc3QgdmFsaWRfY2hhcnMgPSBbXG4gICAgXCIwXCIsXG4gICAgXCIxXCIsXG4gICAgXCIyXCIsXG4gICAgXCIzXCIsXG4gICAgXCI0XCIsXG4gICAgXCI1XCIsXG4gICAgXCI2XCIsXG4gICAgXCI3XCIsXG4gICAgXCI4XCIsXG4gICAgXCI5XCIsXG4gICAgXCJhXCIsXG4gICAgXCJiXCIsXG4gICAgXCJjXCIsXG4gICAgXCJkXCIsXG4gICAgXCJlXCIsXG4gICAgXCJmXCIsXG4gIF07XG4gIGFkZHJlc3MgPSBhZGRyZXNzLnJlcGxhY2UoXCIuXCIsIFwiXCIpLnJlcGxhY2UoXCIuXCIsIFwiXCIpLnRvTG9jYWxlTG93ZXJDYXNlKCk7XG4gIGNvbnN0IGNoZWNrX3ZhbHVlID0gWy4uLmFkZHJlc3NdO1xuICBpZiAoY2hlY2tfdmFsdWUubGVuZ3RoICE9IDYpIHtcbiAgICByZXR1cm4gZmFsc2U7XG4gIH1cbiAgZm9yIChsZXQgaSA9IDA7IGkgPCBjaGVja192YWx1ZS5sZW5ndGg7IGkrKykge1xuICAgIGlmICghdmFsaWRfY2hhcnMuaW5jbHVkZXMoY2hlY2tfdmFsdWVbaV0pKSB7XG4gICAgICByZXR1cm4gZmFsc2U7XG4gICAgfVxuICB9XG4gIHJldHVybiB0cnVlO1xufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/tools/check_address.ts\n");
 
-/***/ }),
-
-/***/ "./node_modules/lit/directive.js":
-/*!***************************************!*\
-  !*** ./node_modules/lit/directive.js ***!
-  \***************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Directive": () => (/* reexport safe */ lit_html_directive_js__WEBPACK_IMPORTED_MODULE_0__.Directive),
-/* harmony export */   "PartType": () => (/* reexport safe */ lit_html_directive_js__WEBPACK_IMPORTED_MODULE_0__.PartType),
-/* harmony export */   "directive": () => (/* reexport safe */ lit_html_directive_js__WEBPACK_IMPORTED_MODULE_0__.directive)
-/* harmony export */ });
-/* harmony import */ var lit_html_directive_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lit-html/directive.js */ "./node_modules/lit-html/development/directive.js");
-
-
 /***/ })
 
 }]);
